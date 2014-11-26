@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*Информация о пользователи*/
+aside {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 400px;
+    border-right: 1px solid #000;
+    text-align: center;
+}
+
+aside img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+aside a {
+    text-decoration: none;
+    margin: 0 auto;
+}
+
+aside a:hover {
+    text-decoration: underline;
+}
+
+/*Контент*/
+#content {
+    position: absolute;
+}
